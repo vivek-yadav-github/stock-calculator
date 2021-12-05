@@ -1,0 +1,39 @@
+body {
+  background-color: #3f3351;
+  color: whitesmoke;
+  text-align: center;
+}
+label {
+  display: block;
+  padding: 1rem;
+  font-size: 18px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 85px;
+  text-shadow: 1px 1px 10px #7267cb;
+}
+input::placeholder {
+  text-align: center;
+}
+input {
+  width: 20%;
+  height: 25px;
+}
+.text {
+  text-align: center;
+  justify-content: center;
+  display: block;
+}
+button {
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+}
+#output {
+  color: darkorange;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
